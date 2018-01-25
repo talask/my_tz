@@ -102,7 +102,7 @@ function prov(n){
     var zap=document.getElementById(n).value;
     var f=0;
     var a=zap.split('@');  
-    var b=a[1].split('.');  
+    if(a.length>1) {  var b=a[1].split('.');  }
 if((a.length==2)&&(b.length==2)&&(a[0]!='')&&(a[1]!='')&&(b[0]!='')&&(b[1]!='')){  f=1; } 
 return(f);
 }
