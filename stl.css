@@ -1,0 +1,42 @@
+/* */
+body, html {
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    height:100%;
+    
+}
+#maket {
+width:100%;
+margin:0 auto;
+padding:10px;
+}
+
+#top {
+    width:100%;
+    height:10%;
+}
+#addu {
+     width:48%;
+     float: left;
+     
+}
+#content {
+            margin-left:48%;
+        }
+#footer {
+     width:100%;
+     height:5%;
+     clear:both;
+     background:#eee;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     left: 0;
+}
+fieldset{
+    width:80%;
+}
+.pc {
+    text-align:center;
+}

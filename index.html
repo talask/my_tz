@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+ <html>
+<head>
+<title>ТЗ</title>
+<meta HTTP-EQUIV="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="text/javascript" src="include/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="include/src.js"></script>
+<link href="include/stl.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+<!--
+
+//-->
+</script>
+</head>
+<body onload="load()">
+<div id="maket">
+<div id="top">
+<h1 align=center> Данные о пользователях </h1>
+
+</div>
+
+<div id="addu">
+<fieldset>
+<legend>Новый пользователь</legend>
+
+<p>
+Имя <input type="text" name="user" id="user" size="30" maxlenght="20" value="" onkeyup="provu('user');">
+</p>
+<p>
+Email <input type="text" name="post" id="post" size="30" maxlenght="50" value="" onkeyup="prove('post');">
+</p>
+<p>
+Роль <select name="rol" id ="rol">
+<OPTION value=admin>admin</OPTION>
+<OPTION value=user>user</OPTION>
+<OPTION value=guest>guest</OPTION>
+</select>
+</p>
+<p class="pc"><input type=submit value="Добавить" onClick="Addu(); return false;"></p>
+
+</fieldset>
+</div>
+<div id="content">
+<table id="tab" border=1 rules=all>
+<tbody>
+<tr><td>Имя пользователя</td><td>Электронная почта</td><td>Статус</td></tr>
+</tbody>
+</table>
+</div>
+
+<div id="footer">
+Info
+<div>
+</div>
+</body>
+</html>
