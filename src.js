@@ -1,4 +1,4 @@
-<!--
+
 
 class Person {
  constructor(name, email) {
@@ -31,7 +31,7 @@ class Guest extends Person {
         
     } 
 } 
-//localStorage.clear();
+
   function load() {
 var table = document.getElementById('tab'); 
 
@@ -151,15 +151,7 @@ function addls(u,e,r) {
                                                    
         localStorage.setItem(r, JSON.stringify(a));                                     
                                                  }
-    
-//    try {
-//  localStorage.setItem('ключ', 'значение');
-//} catch (e) {
-//  if (e == QUOTA_EXCEEDED_ERR) {
-//   alert('Превышен лимит');
-//  }
-//}
-                                                   
+                                   
                       }
 function edls(u,e,r) { //  alert("111");
     if(localStorage.getItem(r) != null) {
@@ -189,7 +181,7 @@ function dblcl(r,c){
                   }
                   
 function bluri(r,c){ 
-    // alert("111");
+   
      var table = document.getElementById('tab');
      if(c==2) { 
          var sel= document.getElementById('edit');
@@ -215,7 +207,7 @@ else { bChar=1; }
                                  else {   document.getElementById(nam).value=rChar; document.getElementById(nam).focus(); }
                    }   
 
-function provu(nam) { //alert("111");
+function provu(nam) { 
 var bChar=0; var rChar="";
 var aChar= document.getElementById(nam).value;
 for (var n=0; n<aChar.length;n++){ var sChar=aChar.substring(n,n+1);
@@ -225,4 +217,4 @@ else { bChar=1; }
  if (bChar==1) {   document.getElementById(nam).value=rChar; document.getElementById(nam).focus(); }
  else {   document.getElementById(nam).value=rChar; document.getElementById(nam).focus(); }
                    }                   
-//-->
+
