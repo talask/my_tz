@@ -6,31 +6,6 @@ class Person {
      this.email=email;     
                          }   
            }
-class Admin extends Person {  
-    constructor(role) {
-   super(name, email); 
-        this.role='admin';   
-        
-    }
-   
-} 
-
-class User extends Person {  
- constructor(role) {
-   super(name, email); 
-        this.role='user';   
-        
-    }   
-    
-} 
-
-class Guest extends Person {  
-   constructor(role) {
-   super(name, email); 
-        this.role='guest';   
-        
-    } 
-} 
 $(function() {
   load();
   var button = document.getElementById('but');
