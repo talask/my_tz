@@ -6,15 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="src.js"></script>
-<link href="include/stl.css" rel="stylesheet" type="text/css">
-
-<script type="text/javascript">
-<!--
-
-//-->
-</script>
+<link href="stl.css" rel="stylesheet" type="text/css">
 </head>
-<body onload="load()">
+<body>
 <div id="maket">
 <div id="top">
 <h1 align=center> Данные о пользователях </h1>
@@ -26,10 +20,10 @@
 <legend>Новый пользователь</legend>
 
 <p>
-Имя <input type="text" name="user" id="user" size="30" maxlenght="20" value="" onkeyup="provu('user');">
+Имя <input type="text" name="user" id="user" size="30" maxlenght="20" value="">
 </p>
 <p>
-Email <input type="text" name="post" id="post" size="30" maxlenght="50" value="" onkeyup="prove('post');">
+Email <input type="text" name="post" id="post" size="30" maxlenght="50" value="">
 </p>
 <p>
 Роль <select name="rol" id ="rol">
@@ -38,7 +32,7 @@ Email <input type="text" name="post" id="post" size="30" maxlenght="50" value=""
 <OPTION value=guest>guest</OPTION>
 </select>
 </p>
-<p class="pc"><input type=submit value="Добавить" onClick="Addu(); return false;"></p>
+<p class="pc"><input name="but" id="but" type="button" value="Добавить" ></p>
 
 </fieldset>
 </div>
